@@ -1,10 +1,13 @@
 #!/bin/bash
 
-# Define the location for the update script
+# Define the location for the update script and the URL from where to fetch it
+SCRIPT_URL="https://raw.githubusercontent.com/xvertile/proxies-domain-blacklist/main/update-hosts.sh"
 SCRIPT_PATH="/usr/local/bin/update-hosts.sh"
 
-# Copy the update script to the bin directory and make it executable
-cp update-hosts.sh $SCRIPT_PATH
+# Download the update script to the bin directory
+curl -s $SCRIPT_URL -o $SCRIPT_PATH
+
+# Make the script executable
 chmod +x $SCRIPT_PATH
 
 # Add the script to crontab to run hourly
