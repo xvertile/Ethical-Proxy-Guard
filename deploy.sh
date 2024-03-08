@@ -2,7 +2,7 @@
 
 # Define the location for the update script and the URL from where to fetch it
 SCRIPT_URL="https://raw.githubusercontent.com/xvertile/proxies-domain-blacklist/main/update-hosts.sh"
-SCRIPT_PATH="/usr/local/bin/update-hosts.sh"
+SCRIPT_PATH="/tmp"
 
 # Download the update script to the bin directory
 curl -s $SCRIPT_URL -o $SCRIPT_PATH
