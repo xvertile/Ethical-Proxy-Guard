@@ -20,6 +20,12 @@ curl -s https://raw.githubusercontent.com/xvertile/Ethical-Proxy-Guard/main/remo
 ```
 This command downloads and runs the `remove-hosts.sh` script, which removes the previously added blacklist entries, restoring access to those domains.
 
+### Prerequisites
+
+- An Ubuntu server (The script is designed with Ubuntu in mind, but it may work with slight modifications on other Linux distributions.)
+- `curl` installed on the server (for downloading the script).
+
+
 ## Conclusion
 Adopting a proactive approach to domain blacklisting is crucial for maintaining the integrity and ethical use of proxy services. Our scripts make it easier to manage such blacklists, ensuring a secure and responsible network environment.
 
