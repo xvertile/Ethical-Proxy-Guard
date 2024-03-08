@@ -22,3 +22,6 @@ This command downloads and runs the `remove-hosts.sh` script, which removes the 
 
 ## Conclusion
 Adopting a proactive approach to domain blacklisting is crucial for maintaining the integrity and ethical use of proxy services. Our scripts make it easier to manage such blacklists, ensuring a secure and responsible network environment.
+
+## Credits
+The domains used in this repo are from DataImpulse website. You can find the original list [here](https://docs.google.com/spreadsheets/d/18RwU3srsbO2PzQxrPxjN2cVLkrV6ZKrdRERlz3k2MKU/edit?usp=sharing).
