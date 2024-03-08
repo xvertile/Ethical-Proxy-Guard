@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-URL="https://raw.githubusercontent.com/xvertile/proxies-domain-blacklist/main/domains.txt"
+URL="https://raw.githubusercontent.com/xvertile/Ethical-Proxy-Guard/main/domains.txt"
 HOSTS_FILE="/etc/hosts"
 TEMP_FILE="/tmp/domains_temp.txt"
 START_MARKER="# Start of proxies-domain-blacklist"
